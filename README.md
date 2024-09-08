@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Angular
 - HTML/CSS
 - TypeScript
-- Deployed on [platform]()
+- Deployed on [platform](https://simangafolio.vercel.app/)
 
 ## How to Run Locally
 1. Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
@@ -25,7 +25,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/portfolio-website/home`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

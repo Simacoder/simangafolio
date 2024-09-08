@@ -11,7 +11,8 @@ const routes: Routes = [
   {path:'footer', component:FooterComponent},
   {path:'home', component:HomeComponent},
   {path:'about', component:AboutComponent},
-  {path:'contact', component:ContactComponent}
+  {path:'contact', component:ContactComponent},
+  { path: '**', redirectTo: '/home' } // Handle unknown routes
 ];
 
 @NgModule({
