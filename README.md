@@ -12,8 +12,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Technologies Used
 - Angular
 - HTML/CSS
-- JavaScript
-- Deployed on [platform]
+- TypeScript
+- Deployed on [platform]()
 
 ## How to Run Locally
 1. Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
