@@ -1,11 +1,11 @@
 <footer class="footer">
     <div class="footer-links">
-        <a>Home</a>
-        <a>About</a>
-        <a>Contact</a>
-        <a>Youtube</a>
-        <a>Email</a>
+        <a (click)="onHome()">Home</a>
+        <a (click)="onAbout()">About</a>
+        <a (click)="onContact()">Contact</a>
+        <a [href]="youtubeLink" target="_blank">Youtube</a>
+        <a [href]=" 'mailto:' + emailLink">Email</a>
 
     </div>
-
+<p>&copy; 2024 Simanga Mchunu. All Rights Reserved</p>
 </footer>
