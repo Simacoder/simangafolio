@@ -16,10 +16,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Deployed on [platform]
 
 ## How to Run Locally
-1. Clone the repository: `git clone https://github.com/your-username/simangafolio.git`
-2. Install dependencies: `npm install`
+1. Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
+2. then `cd simangafolio`
+3. Install dependencies: `npm install`
+4. then run `npm start`
 
 ## Development server
+
+run 
+npm start
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
