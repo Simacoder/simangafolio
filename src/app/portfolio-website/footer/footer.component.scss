@@ -1,27 +1,71 @@
-.footer{
+html, body {
+    height: 100%; /* Ensure the body takes full height */
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1; /* This ensures the main content grows and pushes the footer down */
+  }
+  
+  .footer {
     background-color: #106EBE;
-    text-align: center;
     padding: 20px;
     color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     
-}
-
-.footer-links{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-
-}
-
-.footer-links a{
-    text-decoration: none;
-    color: #fff;
-    margin: 0 10px;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.footer-links a:hover{
-    color: #0FFCBE; /* Change color when hover over it */
-    cursor: pointer;
-}
+    .footer-content {
+      display: flex;
+      justify-content: space-between; /* Social media on the left, footer links centered */
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .social-media {
+      display: flex;
+      gap: 15px;
+  
+      a {
+        color: #fff;
+        font-size: 24px;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #0FFCBE; /* Hover effect for social media links */
+        }
+      }
+    }
+  
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 10px;
+  
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+  
+        &:hover {
+          color: #0FFCBE;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .copyright {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  }
+  

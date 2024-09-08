@@ -13,6 +13,8 @@ import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 })
 export class ContactComponent {
   userForm:any;
+submitted: any;
+f: any;
 
   constructor(public formbuilder:FormBuilder){
   
