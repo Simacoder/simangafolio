@@ -1,0 +1,30 @@
+.home-container{
+    text-align: center;
+    padding: 50px;
+    background-color: #c1ecff;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.thumb-container {
+    overflow: hidden;
+    border-radius: px;
+
+}
+
+.thumb-image{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.image-container{
+    flex: 1;
+}
+
+.image-container img{
+    max-width: 100%;
+    border-radius: 10px;
+}

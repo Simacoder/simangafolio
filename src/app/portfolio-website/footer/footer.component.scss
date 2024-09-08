@@ -1,0 +1,27 @@
+.footer{
+    background-color: #106EBE;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-links a:hover{
+    color: #0FFCBE; /* Change color when hover over it */
+    cursor: pointer;
+}
