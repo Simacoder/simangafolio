@@ -1,11 +1,33 @@
-<footer class="footer">
-    <div class="footer-links">
+<div class="main-content">
+    <!-- Your main content goes here -->
+  </div>
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- Social Media Links on the left -->
+      <div class="social-media">
+        <a [href]="githubLink" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a [href]="twitterLink" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a [href]="linkedinLink" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+  
+      <!-- Navigation Links centered -->
+      <div class="footer-links">
         <a (click)="onHome()">Home</a>
         <a (click)="onAbout()">About</a>
         <a (click)="onContact()">Contact</a>
         <a [href]="youtubeLink" target="_blank">Youtube</a>
-        <a [href]=" 'mailto:' + emailLink">Email</a>
-
+        <a [href]="'mailto:' + emailLink">Email</a>
+      </div>
     </div>
-<p>&copy; 2024 Simanga Mchunu. All Rights Reserved</p>
-</footer>
+  
+    <!-- Copyright centered -->
+    <p class="copyright">&copy; 2024 Simanga Mchunu. All Rights Reserved</p>
+  </footer>
+  

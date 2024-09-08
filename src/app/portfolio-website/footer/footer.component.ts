@@ -1,41 +1,43 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  styleUrls: ['./footer.component.scss'] // Corrected to styleUrls (array)
 })
 export class FooterComponent {
-[x: string]: any;
-youtubeLink = 'https://www.youtube.com/@SimangaMchunu'
-emailLink = 'simacoder@hotmail.com'
+  youtubeLink = 'https://www.youtube.com/@SimangaMchunu';
+  emailLink = 'simacoder@hotmail.com';
+  githubLink = 'https://github.com/Simacoder';
+  twitterLink = 'https://twitter.com/Simacoder';
+  linkedinLink = 'https://www.linkedin.com/in/simanga-mchunu-7570078a/';
 
-  constructor(public router:Router){
+  constructor(public router: Router) {}
 
+  onHome() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    // You can uncomment the line below if you want to route to a specific page
+    // this.router.navigate(['./portfolio-website/home']);
   }
-  onHome(){
-    window.scrollTo({top:0, behavior: 'smooth'})
-    /*this.router.navigate(['./portfolio-website/home'])*/
 
-  }
-  onProjects(){
-    const skillSelection=document.getElementById('skills-section')
-    if(skillSelection){
-      skillSelection.scrollIntoView({behavior: 'smooth', block: 'start'})
+  onProjects() {
+    const skillSection = document.getElementById('skills-section');
+    if (skillSection) {
+      skillSection.scrollIntoView({behavior: 'smooth', block: 'start'});
     }
-    /*this.router.navigate(['./portfolio-website/project'])*/
-
+    // You can uncomment the line below if you want to route to a specific project page
+    // this.router.navigate(['./portfolio-website/project']);
   }
 
-  onAbout(){
-    this.router.navigate(['./portfolio-website/about'])
-
-  }
-  onContact(){
-    this.router.navigate(['./portfolio-website/contact'])
+  onAbout() {
+    this.router.navigate(['./portfolio-website/about']);
   }
 
+  onContact() {
+    this.router.navigate(['./portfolio-website/contact']);
+  }
 }
