@@ -13,16 +13,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Angular
 - HTML/CSS
 - TypeScript
-- > [!NOTE]
-- > The deployment is not yet running
-- > Deployed on [platform](https://simangafolio.vercel.app/)
+ > [!NOTE]
+ > The deployment is not yet running
+ > Deployed on [platform](https://simangafolio.vercel.app/)
 
 ## How to Run Locally
-> [! TIP]
-1. > Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
-2. > then `cd simangafolio`
-3. > Install dependencies: `npm install`
-4. > then run `npm start`
+> [!TIP]
+> Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
+> then `cd simangafolio`
+> Install dependencies: `npm install`
+> then run `npm start`
 
 ## Development server
 
