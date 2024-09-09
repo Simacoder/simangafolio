@@ -19,10 +19,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## How to Run Locally
 > [!TIP]
-> Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
-> then `cd simangafolio`
-> Install dependencies: `npm install`
-> then run `npm start`
+> - Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
+> - then `cd simangafolio`
+> - Install dependencies: `npm install`
+> - then run `npm start`
 
 ## Development server
 
