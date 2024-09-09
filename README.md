@@ -1,7 +1,8 @@
 # Simangafolio
 This is portfolio project for Simanga Mchunu, Pretoria, South Africa.
+![Alt text](../simangafolio/src/assets/home.png "Landing page")
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+This project was gnerated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
 
 ## Features
 - Home page with a brief introduction.
@@ -14,8 +15,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - HTML/CSS
 - TypeScript
  > [!NOTE]
- > The deployment is not yet running
- > Deployed on [platform](https://simangafolio.vercel.app/)
+ > - The deployment is not yet running
+ > - Deployed on [platform](https://simangafolio.vercel.app/)
 
 ## How to Run Locally
 > [!TIP]
