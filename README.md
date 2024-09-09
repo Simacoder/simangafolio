@@ -1,6 +1,6 @@
 # Simangafolio
 This is portfolio project for Simanga Mchunu, Pretoria, South Africa.
-![Alt text](../simangafolio/src/assets/home.png "Landing page")
+>![Landing page](assets/home.png)
 
 This project was gnerated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
 
