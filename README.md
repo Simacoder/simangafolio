@@ -13,19 +13,22 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Angular
 - HTML/CSS
 - TypeScript
-- Deployed on [platform](https://simangafolio.vercel.app/)
+- > [!NOTE]
+- > The deployment is not yet running
+- > Deployed on [platform](https://simangafolio.vercel.app/)
 
 ## How to Run Locally
-1. Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
-2. then `cd simangafolio`
-3. Install dependencies: `npm install`
-4. then run `npm start`
+> [! TIP]
+1. > Clone the repository: `git clone https://github.com/Simacoder/simangafolio.git`
+2. > then `cd simangafolio`
+3. > Install dependencies: `npm install`
+4. > then run `npm start`
 
 ## Development server
 
 
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/portfolio-website/home`. The application will automatically reload if you change any of the source files.
+> [!WARNING]
+> Run `ng serve` for a dev server. Navigate to `http://localhost:4200/portfolio-website/home`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
