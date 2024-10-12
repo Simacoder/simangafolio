@@ -15,7 +15,7 @@ This project was gnerated with [Angular CLI](https://github.com/angular/angular-
 - HTML/CSS
 - TypeScript
  > [!NOTE]
- > - The deployment is not yet running
+ > - The deployment is running now
  > - Deployed on [platform](https://simangafolio.vercel.app/)
 
 ## How to Run Locally
