@@ -7,13 +7,13 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
+  {path:'home', component:HomeComponent},
   {path:'navbar', component:NavbarComponent},
   {path:'footer', component:FooterComponent},
-  {path:'home', component:HomeComponent},
   {path:'about', component:AboutComponent},
   {path:'contact', component:ContactComponent},
-  { path: '', redirectTo: '/portfolio-website/home', pathMatch: 'full' },// Handle unknown routes
-  { path: '**', redirectTo: '/home' } 
+  { path: '', redirectTo: '/home', pathMatch: 'full' },// Handle unknown routes
+  { path: '* *', redirectTo: '/home' } 
 ];
 
 @NgModule({
